@@ -1,4 +1,5 @@
 import React, { useEffect, useState, Fragment } from 'react';
+import { createPortal } from 'react-dom';
 import { useNavigate, useLocation } from 'react-router-dom';
 import {
   ChevronLeftIcon,
@@ -514,35 +515,55 @@ export function Sidebar({
         {renderFooter()}
       </div>
 
-      {/* Mobile Bottom Sheet */}
-      <div
-        className="flex md:hidden fixed bottom-16 left-0 w-full z-30 frosted-glass border-t border-[var(--color-border-default)] shadow-[0_-4px_20px_rgba(0,0,0,0.5)] flex-col rounded-t-2xl transition-all duration-300 ease-out overflow-hidden"
-        style={{
-          height: isSheetExpanded ? '60vh' : '80px'
-        }}>
-        
+      {/* Mobile Bottom Sheet — portaled to body so map canvas cannot steal touches */}
+      {createPortal(
         <div
-          className="w-full pt-3 pb-2 flex justify-center cursor-pointer shrink-0"
-          onClick={() => setIsSheetExpanded(!isSheetExpanded)}>
-          
-          <div className="w-9 h-1 rounded-full bg-[var(--color-border-default)]" />
-        </div>
-        <div
-          className="shrink-0"
-          onClick={() => !isSheetExpanded && setIsSheetExpanded(true)}>
-          
-          {renderHeader()}
-        </div>
-        <div
-          className="flex-1 overflow-y-auto custom-scrollbar"
+          className="flex md:hidden fixed bottom-16 left-0 w-full z-50 frosted-glass border-t border-[var(--color-border-default)] shadow-[0_-4px_20px_rgba(0,0,0,0.5)] flex-col rounded-t-2xl transition-all duration-300 ease-out overflow-hidden min-h-0"
           style={{
-            opacity: isSheetExpanded ? 1 : 0,
-            transition: 'opacity 0.2s'
-          }}>
-          
-          {renderContent()}
-        </div>
-      </div>
+            height: isSheetExpanded ? '60vh' : '120px',
+          }}
+          role="region"
+          aria-label="Trip details">
+          <button
+            type="button"
+            className="w-full min-h-[44px] flex items-center justify-center shrink-0 border-0 bg-transparent p-0 cursor-pointer"
+            onClick={() => setIsSheetExpanded(!isSheetExpanded)}
+            aria-expanded={isSheetExpanded}
+            aria-label={
+              isSheetExpanded ? 'Collapse trip panel' : 'Expand trip panel'
+            }>
+            <span className="w-9 h-1 rounded-full bg-[var(--color-border-default)] block" />
+          </button>
+          <div
+            className="shrink-0 min-h-0"
+            onClick={() => !isSheetExpanded && setIsSheetExpanded(true)}
+            onKeyDown={(e) => {
+              if (
+                !isSheetExpanded &&
+                (e.key === 'Enter' || e.key === ' ')
+              ) {
+                e.preventDefault();
+                setIsSheetExpanded(true);
+              }
+            }}
+            role={!isSheetExpanded ? 'button' : undefined}
+            tabIndex={!isSheetExpanded ? 0 : undefined}
+            aria-label={!isSheetExpanded ? 'Expand trip panel' : undefined}>
+            {renderHeader()}
+          </div>
+          <div
+            className={`flex-1 min-h-0 overflow-y-auto custom-scrollbar ${!isSheetExpanded ? 'pointer-events-none' : ''}`}
+            style={{
+              opacity: isSheetExpanded ? 1 : 0,
+              transition: 'opacity 0.2s',
+              touchAction: isSheetExpanded ? 'pan-y' : undefined,
+            }}
+            aria-hidden={!isSheetExpanded}>
+            {renderContent()}
+          </div>
+        </div>,
+        document.body
+      )}
     </>);
 
 }

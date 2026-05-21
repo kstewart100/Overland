@@ -10,7 +10,8 @@ function isUsableMapboxToken(token: string | undefined): token is string {
 /** Resolved at call time so dev server restarts pick up .env changes reliably. */
 export function getMapboxToken(): string | undefined {
   const raw = import.meta.env.VITE_MAPBOX_TOKEN as string | undefined;
-  return isUsableMapboxToken(raw) ? raw : undefined;
+  const normalized = raw?.trim().replace(/^['"]|['"]$/g, '');
+  return isUsableMapboxToken(normalized) ? normalized : undefined;
 }
 
 /** Published Mapbox Studio style: Overland (kstew) */

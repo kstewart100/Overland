@@ -456,7 +456,9 @@ export function WorldMap({
     const token = getMapboxToken();
     if (!token) {
       setMapError(
-        'Mapbox token missing. Add VITE_MAPBOX_TOKEN to .env (see .env.example).'
+        import.meta.env.DEV
+          ? 'Mapbox token missing. Add VITE_MAPBOX_TOKEN to .env (see .env.example), then restart npm run dev.'
+          : 'Mapbox token missing. In your host (Vercel/Netlify), set VITE_MAPBOX_TOKEN to your pk. token, then redeploy — saving env vars alone does not update an existing build.'
       );
       return;
     }

@@ -1,7 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Sidebar } from './components/Sidebar';
-import { TimelineScrubber } from './components/TimelineScrubber';
 import { TabBar } from './components/TabBar';
 import { BucketList } from './pages/BucketList';
 import { ActivitiesDashboard } from './pages/ActivitiesDashboard';
@@ -143,13 +142,6 @@ export function App() {
             activeTypeFilter={activeTypeFilter}
             onStopClick={handleStopClick}
             onActivityClick={handleActivityClick} />
-          
-
-          {/* Overlays inside the Map Area */}
-          <TimelineScrubber
-            selectedStopId={selectedStop?.id ?? null}
-            onStopSelect={handleStopClick} />
-          
         </div>
       </main>
     </div>);
