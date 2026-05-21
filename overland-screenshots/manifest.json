@@ -1,0 +1,1439 @@
+{
+  "capturedAt": "2026-04-23T19:19:53.585Z",
+  "baseUrl": "http://localhost:5173",
+  "total": 237,
+  "captured": 237,
+  "failed": 0,
+  "flows": [
+    "01-pages",
+    "02-countries",
+    "03-regions",
+    "04-stops",
+    "05-activities"
+  ],
+  "screens": [
+    {
+      "flow": "01-pages",
+      "name": "001-home",
+      "url": "/",
+      "captured": true
+    },
+    {
+      "flow": "01-pages",
+      "name": "002-trips-overview",
+      "url": "/trips",
+      "captured": true
+    },
+    {
+      "flow": "01-pages",
+      "name": "003-activities-dashboard",
+      "url": "/activities",
+      "captured": true
+    },
+    {
+      "flow": "01-pages",
+      "name": "004-bucket-list",
+      "url": "/bucket-list",
+      "captured": true
+    },
+    {
+      "flow": "01-pages",
+      "name": "005-light-theme",
+      "url": "/preview",
+      "captured": true
+    },
+    {
+      "flow": "02-countries",
+      "name": "006-united-states",
+      "url": "/trips/us",
+      "captured": true
+    },
+    {
+      "flow": "02-countries",
+      "name": "007-new-zealand",
+      "url": "/trips/nz",
+      "captured": true
+    },
+    {
+      "flow": "02-countries",
+      "name": "008-france",
+      "url": "/trips/fr",
+      "captured": true
+    },
+    {
+      "flow": "02-countries",
+      "name": "009-germany",
+      "url": "/trips/de",
+      "captured": true
+    },
+    {
+      "flow": "02-countries",
+      "name": "010-switzerland",
+      "url": "/trips/ch",
+      "captured": true
+    },
+    {
+      "flow": "02-countries",
+      "name": "011-italy",
+      "url": "/trips/it",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "012-us-sf-bay-area",
+      "url": "/trips/us/sf-bay-area",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "013-us-sierra-nevada",
+      "url": "/trips/us/sierra-nevada",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "014-us-sequoia-kings",
+      "url": "/trips/us/sequoia-kings",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "015-us-yosemite",
+      "url": "/trips/us/yosemite",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "016-us-big-bear",
+      "url": "/trips/us/big-bear",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "017-us-oregon",
+      "url": "/trips/us/oregon",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "018-us-washington-cascades",
+      "url": "/trips/us/washington-cascades",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "019-nz-auckland-northland",
+      "url": "/trips/nz/auckland-northland",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "020-nz-waikato-bop",
+      "url": "/trips/nz/waikato-bop",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "021-nz-central-north",
+      "url": "/trips/nz/central-north",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "022-nz-wellington",
+      "url": "/trips/nz/wellington",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "023-nz-queenstown-fiordland",
+      "url": "/trips/nz/queenstown-fiordland",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "024-nz-wanaka-aspiring",
+      "url": "/trips/nz/wanaka-aspiring",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "025-nz-canterbury-mtcook",
+      "url": "/trips/nz/canterbury-mtcook",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "026-nz-west-coast",
+      "url": "/trips/nz/west-coast",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "027-nz-nelson-tasman",
+      "url": "/trips/nz/nelson-tasman",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "028-fr-paris",
+      "url": "/trips/fr/paris",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "029-fr-burgundy",
+      "url": "/trips/fr/burgundy",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "030-fr-alsace",
+      "url": "/trips/fr/alsace",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "031-de-black-forest",
+      "url": "/trips/de/black-forest",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "032-de-rhine-valley",
+      "url": "/trips/de/rhine-valley",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "033-ch-basel",
+      "url": "/trips/ch/ch-basel",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "034-ch-bernese-oberland",
+      "url": "/trips/ch/bernese-oberland",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "035-ch-zurich",
+      "url": "/trips/ch/zurich-region",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "036-ch-central-switzerland",
+      "url": "/trips/ch/central-switzerland",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "037-ch-ticino",
+      "url": "/trips/ch/ticino",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "038-ch-lake-geneva",
+      "url": "/trips/ch/lake-geneva",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "039-it-dolomites",
+      "url": "/trips/it/dolomites",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "040-it-milan",
+      "url": "/trips/it/milan",
+      "captured": true
+    },
+    {
+      "flow": "03-regions",
+      "name": "041-it-amalfi-coast",
+      "url": "/trips/it/amalfi-coast",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "042-us-san-francisco",
+      "url": "/trips/us/sf-bay-area/san-francisco",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "043-us-crater-lake-oregon",
+      "url": "/trips/us/oregon/crater-lake-oregon",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "044-us-the-enchantments-washington",
+      "url": "/trips/us/washington-cascades/the-enchantments-washington",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "045-us-emigrant-wilderness-sierra-nevada",
+      "url": "/trips/us/sierra-nevada/emigrant-wilderness-sierra-nevada",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "046-us-hoka-utmb-kodiak-big-bear-lake",
+      "url": "/trips/us/big-bear/hoka-utmb-kodiak-big-bear-lake",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "047-us-sequoia-national-park",
+      "url": "/trips/us/sequoia-kings/sequoia-national-park",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "048-us-yosemite-national-park",
+      "url": "/trips/us/yosemite/yosemite-national-park",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "049-nz-san-francisco-ca",
+      "url": "/trips/nz/auckland-northland/san-francisco-ca",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "050-nz-auckland",
+      "url": "/trips/nz/auckland-northland/auckland",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "051-nz-rotorua",
+      "url": "/trips/nz/waikato-bop/rotorua",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "052-nz-whang-rei",
+      "url": "/trips/nz/auckland-northland/whang-rei",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "053-nz-russell-bay-of-islands",
+      "url": "/trips/nz/auckland-northland/russell-bay-of-islands",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "054-nz-cape-brett",
+      "url": "/trips/nz/auckland-northland/cape-brett",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "055-nz-auckland-mission-bay",
+      "url": "/trips/nz/auckland-northland/auckland-mission-bay",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "056-nz-hobbiton",
+      "url": "/trips/nz/waikato-bop/hobbiton",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "057-nz-rotorua-redwoods",
+      "url": "/trips/nz/waikato-bop/rotorua-redwoods",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "058-nz-tauranga",
+      "url": "/trips/nz/waikato-bop/tauranga",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "059-nz-mount-maunganui",
+      "url": "/trips/nz/waikato-bop/mount-maunganui",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "060-nz-taup",
+      "url": "/trips/nz/central-north/taup",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "061-nz-tongariro-nat-l-park",
+      "url": "/trips/nz/central-north/tongariro-nat-l-park",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "062-nz-napier",
+      "url": "/trips/nz/central-north/napier",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "063-nz-wellington",
+      "url": "/trips/nz/wellington/wellington",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "064-nz-queenstown",
+      "url": "/trips/nz/queenstown-fiordland/queenstown",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "065-nz-te-anau",
+      "url": "/trips/nz/queenstown-fiordland/te-anau",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "066-nz-milford-track",
+      "url": "/trips/nz/queenstown-fiordland/milford-track",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "067-nz-te-anau-post-milford",
+      "url": "/trips/nz/queenstown-fiordland/te-anau-post-milford",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "068-nz-routeburn-track",
+      "url": "/trips/nz/queenstown-fiordland/routeburn-track",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "069-nz-queenstown-ben-lomond",
+      "url": "/trips/nz/queenstown-fiordland/queenstown-ben-lomond",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "070-nz-wanaka",
+      "url": "/trips/nz/wanaka-aspiring/wanaka",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "071-nz-liverpool-hut-mt-aspiring",
+      "url": "/trips/nz/wanaka-aspiring/liverpool-hut-mt-aspiring",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "072-nz-roy-s-peak",
+      "url": "/trips/nz/wanaka-aspiring/roy-s-peak",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "073-nz-glendhu-bay-bike-park",
+      "url": "/trips/nz/wanaka-aspiring/glendhu-bay-bike-park",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "074-nz-gillespie-pass-circuit",
+      "url": "/trips/nz/wanaka-aspiring/gillespie-pass-circuit",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "075-nz-aoraki-mt-cook",
+      "url": "/trips/nz/canterbury-mtcook/aoraki-mt-cook",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "076-nz-punakaiki-west-coast",
+      "url": "/trips/nz/west-coast/punakaiki-west-coast",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "077-nz-nelson-lakes",
+      "url": "/trips/nz/nelson-tasman/nelson-lakes",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "078-nz-abel-tasman",
+      "url": "/trips/nz/nelson-tasman/abel-tasman",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "079-nz-wellington-return",
+      "url": "/trips/nz/wellington/wellington-return",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "080-fr-paris",
+      "url": "/trips/fr/paris/paris",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "081-fr-burgundy-semur-en-auxois",
+      "url": "/trips/fr/burgundy/burgundy-semur-en-auxois",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "082-fr-dijon-tour-de-france",
+      "url": "/trips/fr/burgundy/dijon-tour-de-france",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "083-fr-colmar-strasbourg",
+      "url": "/trips/fr/alsace/colmar-strasbourg",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "084-ch-basel",
+      "url": "/trips/ch/ch-basel/basel",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "085-de-freiburg",
+      "url": "/trips/de/black-forest/freiburg",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "086-de-wiesbaden",
+      "url": "/trips/de/rhine-valley/wiesbaden",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "087-ch-bernese-oberland-thun-lauterbrunnen",
+      "url": "/trips/ch/bernese-oberland/bernese-oberland-thun-lauterbrunnen",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "088-ch-zurich",
+      "url": "/trips/ch/zurich-region/zurich",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "089-ch-andermatt-oberalp-pass",
+      "url": "/trips/ch/central-switzerland/andermatt-oberalp-pass",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "090-ch-ticino-lugano-bissone",
+      "url": "/trips/ch/ticino/ticino-lugano-bissone",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "091-ch-andermatt-big-day",
+      "url": "/trips/ch/central-switzerland/andermatt-big-day",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "092-ch-lausanne-lake-geneva",
+      "url": "/trips/ch/lake-geneva/lausanne-lake-geneva",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "093-fr-paris-return",
+      "url": "/trips/fr/paris/paris-return",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "094-it-val-gardena-dolomites",
+      "url": "/trips/it/dolomites/val-gardena-dolomites",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "095-it-milan",
+      "url": "/trips/it/milan/milan",
+      "captured": true
+    },
+    {
+      "flow": "04-stops",
+      "name": "096-it-amalfi-coast",
+      "url": "/trips/it/amalfi-coast/amalfi-coast",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "097-us-na-r1",
+      "url": "/trips/us/sf-bay-area/san-francisco/na-r1",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "098-us-na-c1",
+      "url": "/trips/us/sf-bay-area/san-francisco/na-c1",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "099-us-na-r2",
+      "url": "/trips/us/sf-bay-area/san-francisco/na-r2",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "100-us-na-r3",
+      "url": "/trips/us/sf-bay-area/san-francisco/na-r3",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "101-us-na-c2",
+      "url": "/trips/us/sf-bay-area/san-francisco/na-c2",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "102-us-na-r4",
+      "url": "/trips/us/sf-bay-area/san-francisco/na-r4",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "103-us-na-r5",
+      "url": "/trips/us/sf-bay-area/san-francisco/na-r5",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "104-us-na-c3",
+      "url": "/trips/us/sf-bay-area/san-francisco/na-c3",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "105-us-na-c4",
+      "url": "/trips/us/sf-bay-area/san-francisco/na-c4",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "106-us-na-r6",
+      "url": "/trips/us/sf-bay-area/san-francisco/na-r6",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "107-us-na-r7",
+      "url": "/trips/us/sf-bay-area/san-francisco/na-r7",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "108-us-na-h1",
+      "url": "/trips/us/oregon/crater-lake-oregon/na-h1",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "109-us-na-h2",
+      "url": "/trips/us/washington-cascades/the-enchantments-washington/na-h2",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "110-us-na-h3",
+      "url": "/trips/us/washington-cascades/the-enchantments-washington/na-h3",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "111-us-na-h4",
+      "url": "/trips/us/washington-cascades/the-enchantments-washington/na-h4",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "112-us-na-h5",
+      "url": "/trips/us/washington-cascades/the-enchantments-washington/na-h5",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "113-us-na-h6",
+      "url": "/trips/us/sierra-nevada/emigrant-wilderness-sierra-nevada/na-h6",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "114-us-na-w1",
+      "url": "/trips/us/sierra-nevada/emigrant-wilderness-sierra-nevada/na-w1",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "115-us-na-h7",
+      "url": "/trips/us/sierra-nevada/emigrant-wilderness-sierra-nevada/na-h7",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "116-us-na-h8",
+      "url": "/trips/us/sierra-nevada/emigrant-wilderness-sierra-nevada/na-h8",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "117-us-na-r8",
+      "url": "/trips/us/big-bear/hoka-utmb-kodiak-big-bear-lake/na-r8",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "118-us-na-r9",
+      "url": "/trips/us/big-bear/hoka-utmb-kodiak-big-bear-lake/na-r9",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "119-us-na-h9",
+      "url": "/trips/us/sequoia-kings/sequoia-national-park/na-h9",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "120-us-na-h10",
+      "url": "/trips/us/sequoia-kings/sequoia-national-park/na-h10",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "121-us-na-h11",
+      "url": "/trips/us/yosemite/yosemite-national-park/na-h11",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "122-us-na-h12",
+      "url": "/trips/us/yosemite/yosemite-national-park/na-h12",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "123-us-na-h13",
+      "url": "/trips/us/yosemite/yosemite-national-park/na-h13",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "124-nz-r1",
+      "url": "/trips/nz/auckland-northland/auckland/r1",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "125-nz-r2",
+      "url": "/trips/nz/waikato-bop/rotorua/r2",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "126-nz-r3",
+      "url": "/trips/nz/waikato-bop/rotorua-redwoods/r3",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "127-nz-r4",
+      "url": "/trips/nz/auckland-northland/auckland-mission-bay/r4",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "128-nz-r5",
+      "url": "/trips/nz/waikato-bop/mount-maunganui/r5",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "129-nz-r6",
+      "url": "/trips/nz/waikato-bop/mount-maunganui/r6",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "130-nz-r7",
+      "url": "/trips/nz/central-north/taup/r7",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "131-nz-r8",
+      "url": "/trips/nz/wellington/wellington/r8",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "132-nz-r9",
+      "url": "/trips/nz/wellington/wellington/r9",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "133-nz-r10",
+      "url": "/trips/nz/wellington/wellington/r10",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "134-nz-r11",
+      "url": "/trips/nz/queenstown-fiordland/queenstown-ben-lomond/r11",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "135-nz-r12",
+      "url": "/trips/nz/wanaka-aspiring/wanaka/r12",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "136-nz-r13",
+      "url": "/trips/nz/west-coast/punakaiki-west-coast/r13",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "137-nz-r14",
+      "url": "/trips/nz/wellington/wellington-return/r14",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "138-nz-c1",
+      "url": "/trips/nz/waikato-bop/rotorua-redwoods/c1",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "139-nz-c2",
+      "url": "/trips/nz/waikato-bop/rotorua-redwoods/c2",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "140-nz-c3",
+      "url": "/trips/nz/central-north/taup/c3",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "141-nz-c4",
+      "url": "/trips/nz/central-north/napier/c4",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "142-nz-c5",
+      "url": "/trips/nz/wellington/wellington/c5",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "143-nz-c6",
+      "url": "/trips/nz/wellington/wellington/c6",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "144-nz-c7",
+      "url": "/trips/nz/queenstown-fiordland/queenstown/c7",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "145-nz-c8",
+      "url": "/trips/nz/queenstown-fiordland/te-anau/c8",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "146-nz-c9",
+      "url": "/trips/nz/queenstown-fiordland/queenstown-ben-lomond/c9",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "147-nz-c10",
+      "url": "/trips/nz/wanaka-aspiring/wanaka/c10",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "148-nz-c11",
+      "url": "/trips/nz/wanaka-aspiring/glendhu-bay-bike-park/c11",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "149-nz-c12",
+      "url": "/trips/nz/wellington/wellington-return/c12",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "150-nz-h1",
+      "url": "/trips/nz/auckland-northland/auckland/h1",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "151-nz-h2",
+      "url": "/trips/nz/waikato-bop/rotorua/h2",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "152-nz-h3",
+      "url": "/trips/nz/auckland-northland/whang-rei/h3",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "153-nz-h4",
+      "url": "/trips/nz/auckland-northland/russell-bay-of-islands/h4",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "154-nz-h5",
+      "url": "/trips/nz/auckland-northland/cape-brett/h5",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "155-nz-h6",
+      "url": "/trips/nz/auckland-northland/cape-brett/h6",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "156-nz-h7",
+      "url": "/trips/nz/waikato-bop/hobbiton/h7",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "157-nz-h8",
+      "url": "/trips/nz/waikato-bop/rotorua-redwoods/h8",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "158-nz-h9",
+      "url": "/trips/nz/waikato-bop/tauranga/h9",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "159-nz-h10",
+      "url": "/trips/nz/central-north/taup/h10",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "160-nz-h11",
+      "url": "/trips/nz/central-north/taup/h11",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "161-nz-h12",
+      "url": "/trips/nz/central-north/tongariro-nat-l-park/h12",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "162-nz-h13",
+      "url": "/trips/nz/wellington/wellington/h13",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "163-nz-h14",
+      "url": "/trips/nz/wellington/wellington/h14",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "164-nz-h15",
+      "url": "/trips/nz/queenstown-fiordland/queenstown/h15",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "165-nz-h16",
+      "url": "/trips/nz/queenstown-fiordland/queenstown/h16",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "166-nz-h17",
+      "url": "/trips/nz/queenstown-fiordland/milford-track/h17",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "167-nz-h18",
+      "url": "/trips/nz/queenstown-fiordland/milford-track/h18",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "168-nz-h19",
+      "url": "/trips/nz/queenstown-fiordland/milford-track/h19",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "169-nz-h20",
+      "url": "/trips/nz/queenstown-fiordland/milford-track/h20",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "170-nz-h21",
+      "url": "/trips/nz/queenstown-fiordland/routeburn-track/h21",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "171-nz-h22",
+      "url": "/trips/nz/queenstown-fiordland/routeburn-track/h22",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "172-nz-h23",
+      "url": "/trips/nz/queenstown-fiordland/routeburn-track/h23",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "173-nz-h24",
+      "url": "/trips/nz/queenstown-fiordland/queenstown-ben-lomond/h24",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "174-nz-h25",
+      "url": "/trips/nz/wanaka-aspiring/liverpool-hut-mt-aspiring/h25",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "175-nz-h26",
+      "url": "/trips/nz/wanaka-aspiring/liverpool-hut-mt-aspiring/h26",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "176-nz-h27",
+      "url": "/trips/nz/wanaka-aspiring/wanaka/h27",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "177-nz-h28",
+      "url": "/trips/nz/wanaka-aspiring/roy-s-peak/h28",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "178-nz-h29",
+      "url": "/trips/nz/wanaka-aspiring/gillespie-pass-circuit/h29",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "179-nz-h30",
+      "url": "/trips/nz/wanaka-aspiring/gillespie-pass-circuit/h30",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "180-nz-h31",
+      "url": "/trips/nz/wanaka-aspiring/gillespie-pass-circuit/h31",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "181-nz-h32",
+      "url": "/trips/nz/wanaka-aspiring/gillespie-pass-circuit/h32",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "182-nz-h33",
+      "url": "/trips/nz/canterbury-mtcook/aoraki-mt-cook/h33",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "183-nz-h34",
+      "url": "/trips/nz/canterbury-mtcook/aoraki-mt-cook/h34",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "184-nz-h35",
+      "url": "/trips/nz/west-coast/punakaiki-west-coast/h35",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "185-nz-h36",
+      "url": "/trips/nz/nelson-tasman/nelson-lakes/h36",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "186-nz-h37",
+      "url": "/trips/nz/nelson-tasman/nelson-lakes/h37",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "187-nz-h38",
+      "url": "/trips/nz/nelson-tasman/abel-tasman/h38",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "188-nz-h39",
+      "url": "/trips/nz/nelson-tasman/abel-tasman/h39",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "189-nz-h40",
+      "url": "/trips/nz/nelson-tasman/abel-tasman/h40",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "190-nz-w1",
+      "url": "/trips/nz/waikato-bop/tauranga/w1",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "191-nz-w2",
+      "url": "/trips/nz/central-north/taup/w2",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "192-nz-w3",
+      "url": "/trips/nz/west-coast/punakaiki-west-coast/w3",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "193-nz-w4",
+      "url": "/trips/nz/nelson-tasman/abel-tasman/w4",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "194-fr-es-c1",
+      "url": "/trips/fr/paris/paris/es-c1",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "195-fr-es-c2",
+      "url": "/trips/fr/paris/paris/es-c2",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "196-fr-es-c3",
+      "url": "/trips/fr/paris/paris/es-c3",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "197-fr-es-c4",
+      "url": "/trips/fr/paris/paris/es-c4",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "198-fr-es-r1",
+      "url": "/trips/fr/paris/paris-return/es-r1",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "199-fr-es-c5",
+      "url": "/trips/fr/burgundy/burgundy-semur-en-auxois/es-c5",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "200-fr-es-c6",
+      "url": "/trips/fr/burgundy/burgundy-semur-en-auxois/es-c6",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "201-fr-es-c7",
+      "url": "/trips/fr/burgundy/dijon-tour-de-france/es-c7",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "202-fr-es-c8",
+      "url": "/trips/fr/burgundy/dijon-tour-de-france/es-c8",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "203-fr-es-c9",
+      "url": "/trips/fr/burgundy/dijon-tour-de-france/es-c9",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "204-fr-es-c10",
+      "url": "/trips/fr/burgundy/dijon-tour-de-france/es-c10",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "205-fr-es-c11",
+      "url": "/trips/fr/burgundy/dijon-tour-de-france/es-c11",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "206-fr-es-c12",
+      "url": "/trips/fr/alsace/colmar-strasbourg/es-c12",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "207-ch-es-c13",
+      "url": "/trips/ch/ch-basel/basel/es-c13",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "208-ch-es-c14",
+      "url": "/trips/ch/ch-basel/basel/es-c14",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "209-de-es-c15",
+      "url": "/trips/de/black-forest/freiburg/es-c15",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "210-de-es-c16",
+      "url": "/trips/de/black-forest/freiburg/es-c16",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "211-de-es-c17",
+      "url": "/trips/de/rhine-valley/wiesbaden/es-c17",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "212-ch-es-c18",
+      "url": "/trips/ch/bernese-oberland/bernese-oberland-thun-lauterbrunnen/es-c18",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "213-ch-es-c19",
+      "url": "/trips/ch/bernese-oberland/bernese-oberland-thun-lauterbrunnen/es-c19",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "214-ch-es-h1",
+      "url": "/trips/ch/bernese-oberland/bernese-oberland-thun-lauterbrunnen/es-h1",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "215-ch-es-h2",
+      "url": "/trips/ch/bernese-oberland/bernese-oberland-thun-lauterbrunnen/es-h2",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "216-ch-es-c20",
+      "url": "/trips/ch/bernese-oberland/bernese-oberland-thun-lauterbrunnen/es-c20",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "217-ch-es-c21",
+      "url": "/trips/ch/zurich-region/zurich/es-c21",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "218-ch-es-c22",
+      "url": "/trips/ch/zurich-region/zurich/es-c22",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "219-ch-es-c23",
+      "url": "/trips/ch/central-switzerland/andermatt-oberalp-pass/es-c23",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "220-ch-es-c24",
+      "url": "/trips/ch/central-switzerland/andermatt-oberalp-pass/es-c24",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "221-ch-es-c25",
+      "url": "/trips/ch/ticino/ticino-lugano-bissone/es-c25",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "222-ch-es-c26",
+      "url": "/trips/ch/ticino/ticino-lugano-bissone/es-c26",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "223-ch-es-c27",
+      "url": "/trips/ch/central-switzerland/andermatt-big-day/es-c27",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "224-ch-es-c28",
+      "url": "/trips/ch/lake-geneva/lausanne-lake-geneva/es-c28",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "225-it-ef-h1",
+      "url": "/trips/it/dolomites/val-gardena-dolomites/ef-h1",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "226-it-ef-h2",
+      "url": "/trips/it/dolomites/val-gardena-dolomites/ef-h2",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "227-it-ef-c1",
+      "url": "/trips/it/dolomites/val-gardena-dolomites/ef-c1",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "228-it-ef-r1",
+      "url": "/trips/it/milan/milan/ef-r1",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "229-it-ef-h3",
+      "url": "/trips/it/amalfi-coast/amalfi-coast/ef-h3",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "230-it-ef-h4",
+      "url": "/trips/it/amalfi-coast/amalfi-coast/ef-h4",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "231-it-ef-h5",
+      "url": "/trips/it/amalfi-coast/amalfi-coast/ef-h5",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "232-fr-ef-r2",
+      "url": "/trips/fr/paris/paris/ef-r2",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "233-fr-ef-r3",
+      "url": "/trips/fr/paris/paris/ef-r3",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "234-fr-ef-r4",
+      "url": "/trips/fr/paris/paris/ef-r4",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "235-fr-ef-c2",
+      "url": "/trips/fr/paris/paris/ef-c2",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "236-fr-ef-r5",
+      "url": "/trips/fr/paris/paris/ef-r5",
+      "captured": true
+    },
+    {
+      "flow": "05-activities",
+      "name": "237-fr-ef-b1",
+      "url": "/trips/fr/paris/paris/ef-b1",
+      "captured": true
+    }
+  ],
+  "failures": []
+}
